@@ -27,13 +27,16 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <WhiteBackgroundContainer>
           <Hero />
           <Partners />
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
+          <BasicSection
+            imageUrl="/demo-illustration-1.svg"
+            title="Maximize Your Display Advertising with Data-Driven Insights."
+            overTitle="Revolutionary Data-Driven Display Advertising"
+          >
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore
-              voluptate quo deleniti animi laboriosam.{' '}
-              <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link> Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Soluta repellendus quia quos obcaecati nihil. Laudantium non accusantium, voluptate eum nesciunt
-              at suscipit quis est soluta?
+              Take control of your display advertising with our Adtech dashboard interface. Experience the power of{' '}
+              <Link href="/help-center">multi-touch attribution and advanced targeting strategies</Link> managed by our team of experts. Get
+              the data-driven insights you need to drive results and achieve success. Join the revolution in display advertising today with
+              our Adtech startup
             </p>
           </BasicSection>
           <BasicSection imageUrl="/demo-illustration-2.svg" title="Lorem ipsum dolor sit." overTitle="lorem ipsum" reversed>
