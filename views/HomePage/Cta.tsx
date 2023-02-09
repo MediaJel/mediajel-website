@@ -14,10 +14,10 @@ export default function Cta() {
       <Container>
         <Stack>
           <OverTitle>Lorem ipsum dolor sit amet</OverTitle>
-          <SectionTitle>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus delectus?</SectionTitle>
+          <SectionTitle>Ready to Transform Your Advertising with AI Intelligence?</SectionTitle>
           <Description>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda beatae accusamus deleniti nihil quas tempora numquam, vitae
-            culpa.
+            Join the revolution in advertising and experience the power of AI for your business success. Sign up for our Adtech solutions
+            now and start seeing real results.
           </Description>
           <ButtonGroup>
             <NextLink href="#early-access" passHref>

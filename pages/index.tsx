@@ -39,15 +39,22 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
               our Adtech startup
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="Lorem ipsum dolor sit." overTitle="lorem ipsum" reversed>
+          <BasicSection
+            imageUrl="/demo-illustration-2.svg"
+            title="Boost Your Search Presence with Our Adtech Solutions."
+            overTitle="Elevate Your Search Advertising"
+            reversed
+          >
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore{' '}
-              <strong>voluptate quo deleniti animi laboriosam</strong>. Possimus ullam velit rem itaque consectetur, in distinctio?
+              Take your search advertising to the next level with our Adtech startup. Our Paid Search and SEO services powered by{' '}
+              <strong>Microsoft Ads and Google Ads </strong> will help you reach your target audience and drive results. Our team of experts
+              will work with you to develop targeted campaigns and optimize your search presence, delivering the performance you need to
+              succeed in the current competitive landscape.
             </p>
             <ul>
-              <li>Professional point 1</li>
-              <li>Professional remark 2</li>
-              <li>Professional feature 3</li>
+              <li>Boost your search presence</li>
+              <li>Expert guidance and optimization</li>
+              <li>Access to industry-leading technology</li>
             </ul>
           </BasicSection>
         </WhiteBackgroundContainer>
