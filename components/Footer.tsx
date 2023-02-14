@@ -13,8 +13,10 @@ const footerItems: FooterItems = [
   {
     title: 'Company',
     items: [
+      { title: 'About Us', href: '/privacy-policy' },
       { title: 'Privacy Policy', href: '/privacy-policy' },
       { title: 'Cookies Policy', href: '/cookies-policy' },
+      { title: 'Opt Outs', href: '/cookies-policy' },
     ],
   },
   {
