@@ -30,7 +30,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           <BasicSection
             imageUrl="/demo-illustration-1.svg"
             title="Breakdown of 3 Products (Paid Search, Display, SEO)"
-            overTitle="Owned by Someone"
+            overTitle="Owned by Dana, Pach and Jay"
           >
             <p>Description of 3 products here</p>
           </BasicSection>

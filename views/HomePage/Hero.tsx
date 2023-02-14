@@ -14,15 +14,15 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>Unleash the Power of AI for Your Advertising Success</CustomOverTitle>
-        <Heading>Empowering Your Ad Strategy with AI Intelligence</Heading>
+        <CustomOverTitle>Unlocking the buyers journey - Owned by Dana, Jake, Cortney </CustomOverTitle>
+        <Heading>Main call to Action</Heading>
         <Description>
           Revolutionize your advertising with Mediajel. Utilizing cutting-edge technology, we deliver data-driven insights and personalized
           campaigns to drive real results for your business. Experience the future of advertising with us.
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
-            Subscribe to the newsletter <span>&rarr;</span>
+            Let's Connect <span>&rarr;</span>
           </Button>
           <NextLink href="#whitepaper" passHref>
             <Button transparent>
