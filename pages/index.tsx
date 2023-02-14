@@ -29,32 +29,24 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           <Partners />
           <BasicSection
             imageUrl="/demo-illustration-1.svg"
-            title="Maximize Your Display Advertising with Data-Driven Insights."
-            overTitle="Revolutionary Data-Driven Display Advertising"
+            title="Breakdown of 3 Products (Paid Search, Display, SEO)"
+            overTitle="Owned by Someone"
           >
-            <p>
-              Take control of your display advertising with our Adtech dashboard interface. Experience the power of{' '}
-              <Link href="/help-center">multi-touch attribution and advanced targeting strategies</Link> managed by our team of experts. Get
-              the data-driven insights you need to drive results and achieve success. Join the revolution in display advertising today with
-              our Adtech startup
-            </p>
+            <p>Description of 3 products here</p>
           </BasicSection>
           <BasicSection
             imageUrl="/demo-illustration-2.svg"
-            title="Boost Your Search Presence with Our Adtech Solutions."
-            overTitle="Elevate Your Search Advertising"
+            title="Breakdown of Technology & Integrations"
+            overTitle="Owned by Pach"
             reversed
           >
             <p>
-              Take your search advertising to the next level with our Adtech startup. Our Paid Search and SEO services powered by{' '}
-              <strong>Microsoft Ads and Google Ads </strong> will help you reach your target audience and drive results. Our team of experts
-              will work with you to develop targeted campaigns and optimize your search presence, delivering the performance you need to
-              succeed in the current competitive landscape.
+              Description of <strong>technology & integrations</strong> here
             </p>
             <ul>
-              <li>Boost your search presence</li>
-              <li>Expert guidance and optimization</li>
-              <li>Access to industry-leading technology</li>
+              <li>Point 1</li>
+              <li>Point 2</li>
+              <li>Point 3</li>
             </ul>
           </BasicSection>
         </WhiteBackgroundContainer>
