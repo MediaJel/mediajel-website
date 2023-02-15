@@ -42,9 +42,8 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           >
             <p>
               Our integrations work with enterprise ETL pipelines and industry-leading APIs like{' '}
-              <strong> Google Ads, Microsoft Ads and many more.</strong> We use multi-touch attribution to help you understand the impact of
-              every touchpoint on your customer journey. Streamline your data integration, make data-driven decisions, and take your
-              marketing analytics to the next level with us.
+              <strong> Google Ads, Microsoft Ads and many more.</strong> Streamline your data integration, make data-driven decisions, and
+              take your marketing analytics to the next level with us.
             </p>
             <ul>
               <li>Unify Your Marketing Data: Our adtech platform provides a centralized hub for all your marketing data. </li>
