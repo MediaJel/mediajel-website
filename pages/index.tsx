@@ -36,17 +36,28 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           </BasicSection>
           <BasicSection
             imageUrl="/demo-illustration-2.svg"
-            title="Breakdown of Technology & Integrations"
+            title="Boost Your Search Presence with Our Adtech Solutions."
             overTitle="Owned by Pach"
             reversed
           >
             <p>
-              Description of <strong>technology & integrations</strong> here
+              Our integrations work with enterprise ETL pipelines and industry-leading APIs like{' '}
+              <strong> Google Ads, Microsoft Ads and many more.</strong> We use multi-touch attribution to help you understand the impact of
+              every touchpoint on your customer journey. Streamline your data integration, make data-driven decisions, and take your
+              marketing analytics to the next level with us.
             </p>
             <ul>
-              <li>Point 1</li>
-              <li>Point 2</li>
-              <li>Point 3</li>
+              <li>Unify Your Marketing Data: Our adtech platform provides a centralized hub for all your marketing data. </li>
+              <br />
+              <li>
+                Industry-Leading Integrations: Our platform seamlessly integrates with the most popular advertising platforms such as Google
+                Ads and Microsoft Ads, as well as third-party tools to ensure you have access to all the data you need.
+              </li>
+              <br />
+              <li>
+                Advanced Analytics: Our platform uses multi-touch attribution to help you understand the impact of each touchpoint on your
+                customer journey, providing you with deep insights and actionable intelligence to optimize your campaigns.
+              </li>
             </ul>
           </BasicSection>
         </WhiteBackgroundContainer>
