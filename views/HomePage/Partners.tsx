@@ -6,7 +6,16 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import Container from 'components/Container';
 import { media } from 'utils/media';
 
-const PARTNER_LOGOS = ['equative-logo.svg', 'google-ads.svg', 'google-analytics.svg', 'microsoft.svg'];
+const PARTNER_LOGOS = [
+  'equative-logo.svg',
+  'google-ads.svg',
+  'google-analytics.svg',
+  'microsoft.svg',
+  'woocommerce-logo.svg',
+  'shopify.svg',
+  'dutchie.svg',
+  'iheartjane.svg',
+];
 
 export default function Partners() {
   return (
