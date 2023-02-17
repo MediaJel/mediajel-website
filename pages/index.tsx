@@ -2,7 +2,7 @@ import { InferGetStaticPropsType } from 'next';
 import Head from 'next/head';
 import styled from 'styled-components';
 import BasicSection from 'components/BasicSection';
-import Link from 'components/Link';
+// import Link from 'components/Link';
 import { EnvVars } from 'env';
 import { getAllPosts } from 'utils/postsFetcher';
 import Cta from 'views/HomePage/Cta';
@@ -29,32 +29,34 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           <Partners />
           <BasicSection
             imageUrl="/demo-illustration-1.svg"
-            title="Maximize Your Display Advertising with Data-Driven Insights."
-            overTitle="Revolutionary Data-Driven Display Advertising"
+            title="Breakdown of 3 Products (Paid Search, Display, SEO)"
+            overTitle="Owned by Dana, Pach and Jay"
           >
-            <p>
-              Take control of your display advertising with our Adtech dashboard interface. Experience the power of{' '}
-              <Link href="/help-center">multi-touch attribution and advanced targeting strategies</Link> managed by our team of experts. Get
-              the data-driven insights you need to drive results and achieve success. Join the revolution in display advertising today with
-              our Adtech startup
-            </p>
+            <p>Description of 3 products here</p>
           </BasicSection>
           <BasicSection
             imageUrl="/demo-illustration-2.svg"
             title="Boost Your Search Presence with Our Adtech Solutions."
-            overTitle="Elevate Your Search Advertising"
+            overTitle="Owned by Pach"
             reversed
           >
             <p>
-              Take your search advertising to the next level with our Adtech startup. Our Paid Search and SEO services powered by{' '}
-              <strong>Microsoft Ads and Google Ads </strong> will help you reach your target audience and drive results. Our team of experts
-              will work with you to develop targeted campaigns and optimize your search presence, delivering the performance you need to
-              succeed in the current competitive landscape.
+              Our integrations work with enterprise ETL pipelines and industry-leading APIs like{' '}
+              <strong> Google Ads, Microsoft Ads and many more.</strong> Streamline your data integration, make data-driven decisions, and
+              take your marketing analytics to the next level with us.
             </p>
             <ul>
-              <li>Boost your search presence</li>
-              <li>Expert guidance and optimization</li>
-              <li>Access to industry-leading technology</li>
+              <li>Unify Your Marketing Data: Our adtech platform provides a centralized hub for all your marketing data. </li>
+              <br />
+              <li>
+                Industry-Leading Integrations: Our platform seamlessly integrates with the most popular advertising platforms such as Google
+                Ads and Microsoft Ads, as well as third-party tools to ensure you have access to all the data you need.
+              </li>
+              <br />
+              <li>
+                Advanced Analytics: Our platform uses multi-touch attribution to help you understand the impact of each touchpoint on your
+                customer journey, providing you with deep insights and actionable intelligence to optimize your campaigns.
+              </li>
             </ul>
           </BasicSection>
         </WhiteBackgroundContainer>
